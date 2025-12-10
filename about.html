@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Jets Elementary School</title>
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+    <!-- ADD FONT AWESOME FOR ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Link to your main CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to about page specific CSS -->
+    <link rel="stylesheet" href="about.css">
+    
+    <style>
+        /* Additional styles for mission/vision images */
+        .mission_image {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .mission_image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .mission_card:hover .mission_image img,
+        .vision_card:hover .mission_image img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>JETS ELEMENTARY</h4></a>
+            
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="nav_buttons">
+                <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <!-- Hero Section -->
+    <section class="about_hero">
+        <div class="container">
+            <div class="about_hero-content">
+                <h1>About Jets Elementary School</h1>
+                <p>At Jets Elementary School, we provide a nurturing environment where young minds are empowered to reach their full potential. Our commitment to excellence in education, character development, and holistic growth makes us a leading choice for parents in Kisumu and beyond.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="about_story">
+        <div class="container about_story-container">
+            <div class="about_story-left">
+                <div class="about_story-image">
+                    <img src="images/story.jpg" alt="Jets Elementary School Building">
+                </div>
+            </div>
+            <div class="about_story-right">
+                <h2>Our Story</h2>
+                <div class="about_story-content">
+                    <p>Jets Elementary School was founded in August 2023 by its visionary founder, Madam Diannah Omariba, with a clear mission: to provide a nurturing, learning centered environment where every child has the opportunity to grow, discover,and succeed.Jets opened its door with an initial enrollment of 50 learners.</p>
+                    <p>Despite being a young institution, the school quickly demonstrated its commitment to excellence.Within just two months of operation, jets proudly celebrated its first graduating learner, making a significance milestone in its early journey. today jets elementary stands as a growing international minded institution, committed to excellence, inclusivity, and preparing young learners to thrive in global community.</p>
+                    <p>What makes Jets Elementary unique is our holistic approach to education. We believe that true learning extends beyond textbooks and classrooms. Our curriculum integrates academics with life skills, creativity, and social responsibility, preparing our students not just for exams, but for life itself.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="about_mission">
+        <div class="container">
+            <div class="about_mission-header">
+                <h2>Our Mission & Vision</h2>
+                <p>Guiding principles that shape our educational approach</p>
+            </div>
+            
+            <div class="about_mission-container">
+                <div class="mission_card">
+                    <div class="mission_image">
+                        <img src="images/mission.jpg" alt="Mission Target">
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To provide a comprehensive, student-centered education that empowers children to become confident, compassionate, and responsible global citizens. We strive to create a learning environment that celebrate diversity,encourages critical thinking, and fosters a lifelong love of learning.</p>
+                </div>
+                
+                <div class="vision_card">
+                    <div class="mission_image">
+                        <img src="images/vision.jpg" alt="Vision Eye">
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>We envision a school where every child discover their unique talents, develops strong character, and acquires the skils needed to thrive in an ever changing world. Our vision is to be a leading elementary school known for academic excellence, innovative teaching methods, and a strong sense of community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="about_values">
+        <div class="container">
+            <div class="about_values-header">
+                <h2>Our Core Values</h2>
+                <p>The principles that guide everything we do</p>
+            </div>
+            
+            <div class="values_container">
+                <div class="value_card">
+                    <div class="value_icon" style="color: #FF6B6B;">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Respect</h3>
+                    <p>We treat everyone with dignity, value diverse perspectives, and foster an environment of mutual understanding.</p>
+                </div>
+                
+                <div class="value_card">
+                    <div class="value_icon" style="color: #4ECDC4;">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>We uphold honesty, ethical behavior, and moral courage in all our actions and decisions.</p>
+                </div>
+                
+                <div class="value_card">
+                    <div class="value_icon" style="color: #FFD166;">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Creativity</h3>
+                    <p>We encourage innovative thinking, imaginative expression, and problem-solving skills.</p>
+                </div>
+                
+                <div class="value_card">
+                    <div class="value_icon" style="color: #06D6A0;">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Teamwork</h3>
+                    <p>We collaborate effectively, support one another, and celebrate shared achievements.</p>
+                </div>
+                
+                <div class="value_card">
+                    <div class="value_icon" style="color: #118AB2;">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Discipline</h3>
+                    <p>We cultivate self-control, responsibility, and consistent effort toward our goals.</p>
+                </div>
+                
+                <div class="value_card">
+                    <div class="value_icon" style="color: #EF476F;">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Excellence</h3>
+                    <p>We strive for the highest standards in everything we do, continuously seeking improvement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Management Team Section -->
+    <section class="about_management">
+        <div class="container">
+            <div class="about_management-header">
+                <h2>Our Management Team</h2>
+                <p>Leadership dedicated to educational excellence</p>
+            </div>
+            
+            <div class="management_container">
+                <div class="management_card">
+                    <div class="management_img_rect">
+                        <img src="images/Diannah.jpg" alt="mrs. Diannah">
+                    </div>
+                    <div class="management_info">
+                        <h3>Diannah Omariba MPH,BSC</h3>
+                        <p class="management_role">Founder and Director</p>
+                        <p>She established jets Elementary with a vision to create a nurturing, child-centered learning environment.As the founding director, she oversees the school's strategic direction, curriculum development, and overall leadership to ensure excellence in academics and student wellbeing.</p>
+                    </div>
+                </div>
+                
+                <div class="management_card">
+                    <div class="management_img_rect">
+                        <img src="images/chris.jpg" alt="Mr. Chris Ouma">
+                    </div>
+                    <div class="management_info">
+                        <h3>Mr. Christian Ouma M.A.Arch</h3>
+                        <p class="management_role">Executive Director</p>
+                        <p>He partners in providing leadership, guiding school operations, and strengthening the school's propgrams. His role supports growth, innovation, and the smooth running of daily activities, working closely with the founder to achieve the school's mission.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Staff Section -->
+    <section class="about_staff">
+        <div class="container">
+            <div class="about_staff-header">
+                <h2>Our Teaching Staff</h2>
+                <p>Dedicated educators bringing passion and expertise to every classroom</p>
+            </div>
+            
+            <div class="staff_container">
+                <!-- Row 1 -->
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/teacher-1.jpg" alt="Ms. Vera Nundi">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Ms. Vera Nundi</h3>
+                        <p class="staff_role">Head Teacher</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/teacher-2.jpg" alt="Ms. Elizabeth">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Ms. Elizabeth</h3>
+                        <p class="staff_role">Deputy Head Teacher</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/secretary-1.jpg" alt="Mrs. Merab">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Mrs. Merab</h3>
+                        <p class="staff_role">Secretary</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/secretary-2.jpg" alt="Ms.Beatrice">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Ms. Beatrice</h3>
+                        <p class="staff_role">Assistant Secretary</p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Row 2 -->
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/owalo.jpg" alt="sir Owalo">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Sir. Owalo</h3>
+                        <p class="staff_role">Communication Coordinator</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/teacher-3.jpg" alt="Mrs. Linet">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Mrs. Linet</h3>
+                        <p class="staff_role">Teacher</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/teacher-4.jpg" alt="Ms. Esther">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Ms. Esther</h3>
+                        <p class="staff_role">Teacher</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/teacher-5.jpg" alt="Ms. Sharon">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Ms. Sharon</h3>
+                        <p class="staff_role"> Teacher</p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Row 3 -->
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/teacher-6.jpg" alt="Ms. Christine">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Ms. Christine</h3>
+                        <p class="staff_role"> French Teacher</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/erick.png" alt="Sir. Erick">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Sir. Erick</h3>
+                        <p class="staff_role">Teacher</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/chef-1.jpg" alt="Ms. Rose">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Ms. Rose</h3>
+                        <p class="staff_role">Head chef</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/chef-2.png" alt="Ms. Winnie">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Ms. Winnie</h3>
+                        <p class="staff_role">Chef</p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Row 4 -->
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/chef-3.jpg" alt="Mrs. Sarah">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Mrs. Sarah</h3>
+                        <p class="staff_role">Chef</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="images/berlin.jpg" alt="Mr. Berlin">
+                    </div>
+                    <div class="staff_info">
+                        <h3>Mrs. Berlin</h3>
+                        <p class="staff_role">Sanitation Officer</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="staff_card">
+                    <div class="staff_img_rect">
+                        <img src="" alt="Mr. Joel">
+                    </div>
+                    <div class="staff_info">
+                        <h3>mr. Joel</h3>
+                        <p class="staff_role">Sanitation Officer</p>
+                        
+                    </div>
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Footer----------------->
+    
+    <footer>
+        <div class="footer_container">
+            <!-- Section 1: School Name & Tagline -->
+            <div class="footer_section footer_logo">
+                <h3>Jets Elementary School</h3>
+                <p class="footer_tagline">Nurturing young minds for a brighter future</p>
+            </div>
+            
+            <!-- Section 2: Contact Details & Social Icons -->
+            <div class="footer_section footer_contact">
+                <div class="contact_item">
+                    <span class="contact_icon"><i class="fas fa-phone-alt"></i></span>
+                    <span>+254 717830659</span>
+                    <span>+254 727549629</span>
+                </div>
+                <div class="contact_item">
+                    <span class="contact_icon"><i class="fas fa-map-marker-alt"></i></span>
+                    <span>Gesoko, opp.joyland special school-kisumu</span>
+                </div>
+                <div class="contact_item">
+                    <span class="contact_icon"><i class="fas fa-envelope"></i></span>
+                    <span>jetselementary@gmail.com</span>
+                </div>
+                
+                <div class="social_icons">
+                    <a href="https://www.facebook.com/share/1BmpVeiQvN/" target="_blank" class="social_icon" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/jets_elementary_school?igsh=MTI2Z3dxZjNnMXdmYw==" target="_blank" class="social_icon" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@jets_elementay_ksm?_r=1&_t=ZM-91piVOhMLLE" target="_blank" class="social_icon" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://wa.me/254717830659" target="_blank" class="social_icon" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://maps.google.com" target="_blank" class="social_icon" title="Google Maps">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Section 3: Quick Links -->
+            <div class="footer_section">
+                <div class="footer_links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="course.html">Course</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer_bottom">
+            <p>&copy; 2026 Jets Elementary School. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

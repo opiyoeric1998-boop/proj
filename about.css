@@ -1,0 +1,486 @@
+/* About Page Styles */
+
+/* ===== HERO SECTION ===== */
+.about_hero {
+    background: linear-gradient(rgba(0, 32, 96, 0.8), rgba(0, 32, 96, 0.9)), 
+                url('images/about.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 8rem 0 6rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.about_hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about_hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.about_hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+/* ===== STORY SECTION ===== */
+.about_story {
+    padding: 6rem 0;
+    background-color: #f9f9f9;
+}
+
+.about_story-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about_story-image {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about_story-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.about_story-image img:hover {
+    transform: scale(1.03);
+}
+
+.about_story-right h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #002060;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.about_story-right h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background-color: #FF6B6B;
+}
+
+.about_story-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* ===== MISSION & VISION SECTION ===== */
+.about_mission {
+    padding: 6rem 0;
+    background-color: white;
+}
+
+.about_mission-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.about_mission-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #002060;
+}
+
+.about_mission-header p {
+    font-size: 1.1rem;
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about_mission-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mission_card, .vision_card {
+    background: #f8f9fa;
+    border-radius: 15px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.mission_card:hover, .vision_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.mission_card {
+    border-top: 5px solid #4ECDC4;
+}
+
+.vision_card {
+    border-top: 5px solid #FFD166;
+}
+
+.mission_image {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mission_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mission_card h3, .vision_card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #002060;
+}
+
+.mission_card p, .vision_card p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* ===== CORE VALUES SECTION ===== */
+.about_values {
+    padding: 6rem 0;
+    background-color: #f9f9f9;
+}
+
+.about_values-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.about_values-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #002060;
+}
+
+.about_values-header p {
+    font-size: 1.1rem;
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.values_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.value_card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.value_card:hover {
+    transform: translateY(-5px);
+}
+
+.value_icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.value_card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #002060;
+}
+
+.value_card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* ===== MANAGEMENT TEAM SECTION ===== */
+.about_management {
+    padding: 6rem 0;
+    background-color: white;
+}
+
+.about_management-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.about_management-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #002060;
+}
+
+.about_management-header p {
+    font-size: 1.1rem;
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.management_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.management_card {
+    background: #f8f9fa;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.management_card:hover {
+    transform: translateY(-10px);
+}
+
+/* Rectangular portrait for management team */
+.management_img_rect {
+    width: 100%;
+    aspect-ratio: 3/4; /* Creates rectangular shape */
+    overflow: hidden;
+}
+
+.management_img_rect img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image fills the container without distortion */
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.management_card:hover .management_img_rect img {
+    transform: scale(1.05);
+}
+
+.management_info {
+    padding: 2rem;
+}
+
+.management_info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #002060;
+}
+
+.management_role {
+    color: #FF6B6B;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.management_info p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ===== STAFF SECTION ===== */
+.about_staff {
+    padding: 6rem 0;
+    background-color: #f9f9f9;
+}
+
+.about_staff-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.about_staff-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #002060;
+}
+
+.about_staff-header p {
+    font-size: 1.1rem;
+    color: #777;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.staff_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.staff_card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.staff_card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Rectangular portrait for staff */
+.staff_img_rect {
+    width: 100%;
+    aspect-ratio: 3/4; /* Creates rectangular shape */
+    overflow: hidden;
+}
+
+.staff_img_rect img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image fills the container without distortion */
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.staff_card:hover .staff_img_rect img {
+    transform: scale(1.05);
+}
+
+.staff_info {
+    padding: 1.5rem;
+}
+
+.staff_info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #002060;
+}
+
+.staff_role {
+    color: #4ECDC4;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.staff_info p {
+    color: #666;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1024px) {
+    .about_story-container {
+        gap: 3rem;
+    }
+    
+    .management_container, .about_mission-container {
+        gap: 2rem;
+    }
+    
+    .staff_container {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about_hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .about_story-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .about_story-right h2,
+    .about_mission-header h2,
+    .about_values-header h2,
+    .about_management-header h2,
+    .about_staff-header h2 {
+        font-size: 2rem;
+    }
+    
+    .mission_card, .vision_card {
+        padding: 2rem;
+    }
+    
+    .management_container, .about_mission-container {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+    
+    .values_container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    .staff_container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about_hero {
+        padding: 6rem 0 4rem;
+    }
+    
+    .about_hero h1 {
+        font-size: 2rem;
+    }
+    
+    .about_hero p {
+        font-size: 1rem;
+    }
+    
+    .about_story, .about_mission, .about_values, .about_management, .about_staff {
+        padding: 4rem 0;
+    }
+    
+    .staff_container {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 1.2rem;
+    }
+    
+    .staff_info {
+        padding: 1rem;
+    }
+    
+    .staff_info h3 {
+        font-size: 1.1rem;
+    }
+    
+    .staff_info p {
+        font-size: 0.8rem;
+    }
+}
